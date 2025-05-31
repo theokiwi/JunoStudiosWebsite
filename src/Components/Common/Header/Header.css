@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.header-logo span{
+    font-family: Baloo;
+    color: var(--melon);
+}
+
+.header-logo span:hover{
+    font-family: Baloo;
+    color: var(--coral-pink);
+}
+
+.header-navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header-navbar a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: Baloo;
+    padding: 15px;
+    color: var(--melon);
+}
+
+.header-navbar a:hover{
+    color: var(--coral-pink);
+}
+
+.header-navbar li{
+    float: left;
+    
+}
+
+@font-face {
+    font-family: Baloo;
+    src: url(src/assets/fonts/BalooChettan-Regular.ttf);
+}

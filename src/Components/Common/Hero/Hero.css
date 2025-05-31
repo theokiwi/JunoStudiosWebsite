@@ -1,0 +1,35 @@
+.hero-titles{
+    font-family: Baloo;
+    color: var(--melon);
+    margin: auto;
+}
+
+.hero-titles h1{
+    display: block;
+    font-size: 12rem; 
+    line-height: 0.8;  
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-color-diff{
+    color: var(--indigo-dye)
+}
+
+.hero-titles p{
+    width: 90%;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* perguntar pro vini porque eu to tendo
+que fazer isso pra ficar grande */
+.juno-walking{
+   width: 160%;
+}
+
+@font-face {
+    font-family: Baloo;
+    src: url(src/assets/fonts/BalooChettan-Regular.ttf);
+}
