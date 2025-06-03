@@ -3,6 +3,20 @@ import BlueSquares from '../../../Components/BlueSquares/BlueSquares.jsx'
 import JunoWalking from '../../../Components/JunoWalking/JunoWalking.jsx'
 import Button from '@mui/material/Button';
 import "./Hero.css";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+const goDown = () => {
+  const nextSection = document.getElementById('WhoAmI');
+
+  if (nextSection) {
+    nextSection.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  } else {
+    console.warn("Elemento com id 'WhoAmI' não encontrado para rolagem.");
+
+  }
+};
 
 export default function Hero() {
   return (
@@ -24,9 +38,11 @@ export default function Hero() {
             <JunoWalking/>
         </div>
         <div className = "absolute bottom-[7rem] left-6 hover:scale-105">
-            <Button variant="contained">Contained</Button>
+            <Button sx={{backgroundColor: 'var(--lapis-lazuli)', '&:hover': {backgroundColor: 'var(--coral-pink)', },fontFamily: 'Baloo',}}variant="contained">BUY</Button>
         </div>
-
+        <div  onClick={goDown} className = "absolute animate-bounce bottom-[2rem] left-1/2 cursor-pointer hover:scale-105">
+            <KeyboardArrowDownIcon sx={{color: 'var(--coral-pink)', fontSize: '5rem'}}/>
+        </div>
     </section>
     </>
   )
