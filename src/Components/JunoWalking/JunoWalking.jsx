@@ -1,6 +1,6 @@
 import React from 'react'
 import './JunoWalking.css'
-const gifUrl = 'src/assets/common/JunoWalking.gif';
+const gifUrl = 'src/assets/imgs/JunoWalking.gif';
 
 export default function JunoWalking() {
   return (

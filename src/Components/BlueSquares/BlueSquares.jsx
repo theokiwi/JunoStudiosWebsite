@@ -1,12 +1,20 @@
-import './BlueSquares.css'
-
 function BlueSquares({color}) {
 
   return (
     <>
-    <div className="hover:scale-750 transition-all duration-300 absolute -z-20 right-62 top-38 scale-[6]">
-      <svg width="234" height="234" viewBox="0 0 234 234" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="167" y="30.6553" width="165" height="180" rx="32" transform="rotate(75 167 30.6553)" fill={color}/>
+    <div className="hover:scale-105 hover:brightness-95 transition-all duration-300 box-shadow-lg">
+       <svg id="e0Jp23kTxMF1" xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 1920 1080"
+        shapeRendering="geometricPrecision"
+        textRendering="geometricPrecision"
+        project-id="046772eee6c540a1ab787f52eb09eebf" 
+        export-id="325db183167e414c85f3f91ed955e021" cached="false"> 
+          <rect width="1172.468558" height="913.905857" rx="137" ry="137"
+           transform="matrix(.90063-.350701 0.404296 1.038266 807.91873 162.681827)"
+           fill={color} 
+           strokeWidth="0"
+           />
       </svg>
     </div>
    </>

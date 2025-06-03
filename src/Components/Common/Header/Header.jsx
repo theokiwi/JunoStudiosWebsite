@@ -5,7 +5,7 @@ export default function Header() {
     <>
         <section className="header shadow flex">
           <section className="header-logo flex">
-            <img src="src/assets/header/logo.png" className="header-logo-img text-shadow-md  hover:scale-110 transition-all duration-300 max-h-9/12"></img>
+            <img src="src/assets/imgs/logo.png" className="header-logo-img text-shadow-md  hover:scale-110 transition-all duration-300 max-h-9/12"></img>
             <div className="header-logo-text">
             <span className="block text-shadow-xl text-3xl md:text-4xl font-extrabold leading-none hover:scale-105 hover:brightness-95 transition-all duration-300">Juno</span>
             <span className="block text-shadow-xl text-3xl md:text-4xl font-extrabold leading-none hover:scale-105 hover:brightness-95 transition-all duration-300">Studios</span>
