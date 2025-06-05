@@ -37,7 +37,7 @@ export default function Hero() {
         <div className = "hover:brightness-95 juno-walking">
             <JunoWalking/>
         </div>
-        <div className = "absolute bottom-[7rem] left-6 hover:scale-105">
+        <div className = "absolute bottom-[17rem] left-6 hover:scale-105">
             <Button sx={{backgroundColor: 'var(--lapis-lazuli)', '&:hover': {backgroundColor: 'var(--coral-pink)', },fontFamily: 'Baloo',}}variant="contained">BUY</Button>
         </div>
         <div  onClick={goDown} className = "absolute animate-bounce bottom-[2rem] left-1/2 cursor-pointer hover:scale-105">

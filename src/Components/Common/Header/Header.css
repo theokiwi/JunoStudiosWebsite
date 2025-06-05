@@ -14,11 +14,6 @@
     color: var(--melon);
 }
 
-.header-logo span:hover{
-    font-family: Baloo;
-    color: var(--coral-pink);
-}
-
 .header-navbar ul{
     list-style-type: none;
     overflow: hidden;

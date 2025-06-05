@@ -1,4 +1,3 @@
-// Components/WhiteBall/WhiteBall.jsx
 import React from 'react';
 
 export default function Ball({ color = 'white', size = 100 }) { 
