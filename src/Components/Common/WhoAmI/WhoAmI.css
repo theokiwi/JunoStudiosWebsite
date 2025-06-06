@@ -39,3 +39,13 @@ h1{
 p{
   font-family: Baloo;
 }
+
+.flexivel{
+  margin-right: 1.5rem;
+}
+
+.flexivel p{
+  margin-top: 1rem;
+  margin-left: auto;
+  width: 90%;
+}

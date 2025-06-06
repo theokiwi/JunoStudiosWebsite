@@ -2,6 +2,7 @@ import React from "react";
 import Asterisk from "../../../Components/BlueAsterisk/BlueAsterisk.jsx";
 import Ball from "../../Ball/Ball.jsx";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import "./DevLog.css";
 
 const goDown = () => {
   const nextSection = document.getElementById("GameShow");
@@ -18,9 +19,10 @@ const goDown = () => {
 
 export default function DevLog({ id }) {
   return (
-      <section className="relative min-h-screen" id={id}>
-        <div>
-          <div className="-z-20">
+    <section id={id} className="bg-gray-100 min-h-screen relative">
+      <div className="flex flex-row w-full h-full">
+        <div className="relative w-1/2">
+          <div className="">
             <Asterisk color="var(--lapis-lazuli)" />
           </div>
           <div className="absolute -left-42 scale-[0.8] top-[28%] z-10 hover:brightness-95 transition-all">
@@ -40,37 +42,40 @@ export default function DevLog({ id }) {
               <Ball color="var(--marian-blue)" size={200} />
             </div>
           </div>
-            <div>
+          <div>
             <img
-              className="z-11 w-48 h-48 hover:brightness-95 transition-all -left-3 duration-300 top-[41.4%] scale-[1.9] hover:scale-[2.1] absolute rounded-full"
+              className="z-11 w-48 h-48 hover:brightness-95 transition-all -left-3 duration-300 top-[41%] scale-[1.8] hover:scale-[2.1] absolute rounded-full"
               src="src/assets/imgs/game2.png"></img>
           </div>
         </div>
-        <div className="absolute leading-40 text-right top-50 right-14 text-[12rem] hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg">
-            <h1 className="text-(--melon)">
-              Dev <span className="text-(--indigo-dye)">Log</span> <br />
+
+        <div className="flexivel w-1/2 flex flex-col justify-center">
+          <div className="leading-40 text-[12rem] hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg text-right">
+            <h1 className="text-[var(--melon)]">
+              Dev<span className="text-[var(--indigo-dye)]">Log</span> <br />
             </h1>
-        </div>
-          <div className="absolute top-100 left-290">
-              <a
-                href="https://www.youtube.com/watch?v=-Bs6EO_Co7Q"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://img.youtube.com/vi/-Bs6EO_Co7Q/hqdefault.jpg"
-                  alt="Clique para assistir ao vídeo no YouTube"
-                  className="w-180 h-96 object-cover rounded-lg shadow-lg hover:scale-105 hover:rotate-1 rounded-2xl hover:brightness-110 transition-all duration-300 cursor-pointer"
-                />
-              </a>
           </div>
-        <div
-          onClick={goDown}
-          className="absolute animate-bounce top-[55rem] left-1/2 cursor-pointer hover:scale-105">
-          <KeyboardArrowDownIcon
-            sx={{ color: "var(--coral-pink)", fontSize: "5rem" }}
-          />
+          <div className="flex video justify-center">
+            <a
+              href="https://www.youtube.com/watch?v=-Bs6EO_Co7Q"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://img.youtube.com/vi/-Bs6EO_Co7Q/hqdefault.jpg"
+                alt="Clique para assistir ao vídeo no YouTube"
+                className="w-[45rem] hover:rotate-1 h-96 object-cover rounded-4xl shadow-lg hover:scale-105 hover:brightness-110 transition-all duration-300 cursor-pointer"
+              />
+            </a>
+          </div>
         </div>
-      </section>
+      </div>
+      <div
+        onClick={goDown}
+        className="absolute animate-bounce top-[62rem] left-1/2 cursor-pointer hover:scale-105">
+        <KeyboardArrowDownIcon
+          sx={{ color: "var(--coral-pink)", fontSize: "5rem" }}
+        />
+      </div>
+    </section>
   );
 }

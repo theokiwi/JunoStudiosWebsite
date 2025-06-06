@@ -33,8 +33,7 @@ export default function Hero() {
             ut quidem quia alias. Hic consectetur voluptatibus vero nostrum
             doloribus eos pariatur magni.
           </p>
-          <div className="absolute left-6 hover:scale-105">
-            <Button
+            <Button className="absolute left-6 hover:scale-105"
               sx={{
                 backgroundColor: "var(--lapis-lazuli)",
                 "&:hover": { backgroundColor: "var(--coral-pink)" },
@@ -43,7 +42,6 @@ export default function Hero() {
               variant="contained">
               BUY
             </Button>
-          </div>
         </div>
         <div className="absolute top-0 -z-20 w-screen bluesquares-div">
           <BlueSquares color="var(--lapis-lazuli)" />
