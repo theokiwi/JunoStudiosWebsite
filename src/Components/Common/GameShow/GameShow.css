@@ -1,0 +1,19 @@
+.title h1{
+    font-size: 12rem; 
+    line-height: 0.8;  
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--melon);
+}
+
+.title p{
+    color: var(--melon);
+    width: 90%;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+img{
+    margin-right: 1.5rem;
+}
