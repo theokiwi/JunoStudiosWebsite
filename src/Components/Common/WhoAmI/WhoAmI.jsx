@@ -2,6 +2,21 @@ import React from 'react'
 import Asterisk from '../../../Components/BlueAsterisk/BlueAsterisk.jsx'
 import Ball from '../../Ball/Ball.jsx'
 import './WhoAmI.css'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+const goDown = () => {
+  const nextSection = document.getElementById('GameShow');
+
+  if (nextSection) {
+    nextSection.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  } else {
+    console.warn("Elemento com id 'GameShow' não encontrado para rolagem.");
+
+  }
+};
 
 export default function WhoAmI({id}) {
   return (
@@ -31,18 +46,20 @@ export default function WhoAmI({id}) {
         <div>
           <img className = "z-11 hover:brightness-95 transition-all duration-300 -left-60 top-[22%] scale-[0.5] hover:scale-60 absolute rounded-full" src="src/assets/imgs/theo.jpeg"></img>
         </div>
-        <div className ="absolute leading-40 text-right top-28 right-10 text-[12rem] hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg">
+        <div className ="absolute leading-40 text-right top-44 right-10 text-[12rem] hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg">
            <h1 className = "text-(--melon)">
             Who <br />
             <span className="text-(--indigo-dye)">Am</span> <br />
             I
           </h1>
         </div>
-         <div className = "absolute top-155 left-310 text-[1.2rem] leading-10 w-1/3 hover:scale-105 hover:brightness-95 transition-all duration-300">
+         <div className = "absolute top-172 left-310 text-[1.2rem] leading-10 w-1/3 hover:scale-105 hover:brightness-95 transition-all duration-300">
               <p className="text-(--melon) text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam in vero sed earum recusandae magnam fuga, corrupti dolorem eligendi repellat velit quis fugit similique aut eaque laborum quibusdam iste consectetur. Debitis nemo quidem praesentium minus dolorum odio tenetur provident repellendus dolorem architecto nisi perferendis, ipsam officia  </p>
           </div>
         </div>
-       
+        <div  onClick={goDown} className = "absolute animate-bounce top-[112rem] left-1/2 cursor-pointer hover:scale-105">
+            <KeyboardArrowDownIcon sx={{color: 'var(--coral-pink)', fontSize: '5rem'}}/>
+        </div>
       </section>
     </>
   )

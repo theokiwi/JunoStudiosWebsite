@@ -30,15 +30,15 @@ export default function Hero() {
           </h1>
           <p className ="hover:scale-105 hover:brightness-95 transition-all duration-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore numquam dolore laudantium, odio libero nulla laboriosam architecto ut quidem quia alias. Hic consectetur voluptatibus vero nostrum doloribus eos pariatur magni.
           </p>
+           <div className = "absolute left-6 hover:scale-105">
+            <Button sx={{backgroundColor: 'var(--lapis-lazuli)', '&:hover': {backgroundColor: 'var(--coral-pink)', },fontFamily: 'Baloo',}}variant="contained">BUY</Button>
+        </div>
         </div>
         <div className = "absolute top-0 -z-20 w-screen bluesquares-div">
           <BlueSquares color ="var(--lapis-lazuli)"/>
         </div>
         <div className = "hover:brightness-95 juno-walking">
             <JunoWalking/>
-        </div>
-        <div className = "absolute bottom-[17rem] left-6 hover:scale-105">
-            <Button sx={{backgroundColor: 'var(--lapis-lazuli)', '&:hover': {backgroundColor: 'var(--coral-pink)', },fontFamily: 'Baloo',}}variant="contained">BUY</Button>
         </div>
         <div  onClick={goDown} className = "absolute animate-bounce bottom-[2rem] left-1/2 cursor-pointer hover:scale-105">
             <KeyboardArrowDownIcon sx={{color: 'var(--coral-pink)', fontSize: '5rem'}}/>

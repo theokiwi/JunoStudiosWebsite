@@ -1,11 +1,11 @@
-function BlueSquares({color}) {
+function BlueSquares({color, viewBox =  "0 0 1920 1080"}) {
 
   return (
     <>
     <div className="hover:scale-105 hover:brightness-95 transition-all duration-300 box-shadow-lg">
        <svg id="e0Jp23kTxMF1" xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        viewBox="0 0 1920 1080"
+        viewBox={viewBox}
         shapeRendering="geometricPrecision"
         textRendering="geometricPrecision"
         project-id="046772eee6c540a1ab787f52eb09eebf" 

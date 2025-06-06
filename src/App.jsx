@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Components/Common/Hero/Hero.jsx";
 import Header from "./Components/Common/Header/Header.jsx";
 import WhoAmI from "./Components/Common/WhoAmI/WhoAmI.jsx";
+import GameShow from "./Components/Common/GameShow/GameShow.jsx"
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       <main>
         <Hero/>
         <WhoAmI id = "WhoAmI" />
-      </main>
+        <GameShow id = "GameShow" />
+      </main> 
       <footer></footer>
     </>
   );
