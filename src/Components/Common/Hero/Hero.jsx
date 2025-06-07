@@ -22,26 +22,27 @@ export default function Hero() {
     <>
       <section className="hero flex min-h-screen">
         <div className="hero-titles">
-          <h1 className="hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg">
+          <h1 className="hover:scale-101 hover:brightness-95 transition-all duration-300 text-shadow-lg">
             Heartfelt <br />
             <span className="hero-color-diff">Indie</span> <br />
             Games
           </h1>
-          <p className="hover:scale-105 hover:brightness-95 transition-all duration-300">
+          <p className="hover:brightness-95 transition-all duration-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
             numquam dolore laudantium, odio libero nulla laboriosam architecto
             ut quidem quia alias. Hic consectetur voluptatibus vero nostrum
             doloribus eos pariatur magni.
           </p>
-            <Button className="absolute left-6 hover:scale-105"
-              sx={{
-                backgroundColor: "var(--lapis-lazuli)",
-                "&:hover": { backgroundColor: "var(--coral-pink)" },
-                fontFamily: "Baloo",
-              }}
-              variant="contained">
-              BUY
-            </Button>
+          <Button
+            className="absolute left-6 hover:scale-105"
+            sx={{
+              backgroundColor: "var(--lapis-lazuli)",
+              "&:hover": { backgroundColor: "var(--coral-pink)" },
+              fontFamily: "Baloo",
+            }}
+            variant="contained">
+            BUY
+          </Button>
         </div>
         <div className="absolute top-0 -z-20 w-screen bluesquares-div">
           <BlueSquares color="var(--lapis-lazuli)" />

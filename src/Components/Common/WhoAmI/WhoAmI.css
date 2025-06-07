@@ -1,35 +1,31 @@
 @keyframes scale-in-fade {
   0% {
-    opacity: 0;
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
   50% {
-    opacity: 1;
     transform: scale(1);
   }
   100% {
-    opacity: 0;
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
 }
 
-.animated-balls {
-  animation: scale-in-fade 2.2s ease-in-out infinite;
-    opacity: 0;
-  transform: scale(0.5);
+.scale-in-fade {
+  animation: scale-in-fade 2.2s ease-in-out;
+  opacity: 1;
 }
 
 .animated-balls:nth-of-type(1) {
-  animation-delay: 0.9s;
+  animation-delay: 0s;
 }
 .animated-balls:nth-of-type(2) {
-  animation-delay: 1.2s;
+  animation-delay: 0.3s;
 }
 .animated-balls:nth-of-type(3) {
-  animation-delay: 1.5s;
+  animation-delay: 0.6s;
 }
 .animated-balls:nth-of-type(4) {
-  animation-delay: 1.8s;
+  animation-delay: 0.9s;
 }
 
 h1{
