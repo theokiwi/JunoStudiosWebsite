@@ -109,7 +109,7 @@ export default function WhoAmI({ id }) {
             <div>
               <img
                 className="z-11 hover:brightness-95 transition-all duration-300 -left-60 top-[14%] scale-[0.55] absolute rounded-full"
-                src="src/assets/imgs/theo.jpeg"></img>
+                src={theoImage}></img>
             </div>
           </div>
 
