@@ -5,6 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import "./Header.css";
 import MediaQuery from "react-responsive";
 import MenuIcon from '@mui/icons-material/Menu'; 
+import logoImg from '../../../assets/imgs/logo.png';
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -21,7 +22,7 @@ export default function Header() {
       <section className="header shadow flex">
         <section className="header-logo flex">
           <img
-            src="src/assets/imgs/logo.png"
+            src={logoImg}
             className="header-logo-img text-shadow-md hover:scale-110 transition-all duration-300 max-h-9/12"
             alt="Juno Studios Logo" 
           /> 

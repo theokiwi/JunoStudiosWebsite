@@ -32,7 +32,7 @@ const startAnimation = () => {
 export default function DevLog({ id }) {
   return (
     <section id={id} className="bg-gray-100 w-full relative">
-      <MediaQuery minWidth={1280} maxWidth={1919}>
+      <MediaQuery minWidth={1280}>
         <div
           onMouseOver={startAnimation}
           className="min-h-screen flex flex-row w-full h-full">
