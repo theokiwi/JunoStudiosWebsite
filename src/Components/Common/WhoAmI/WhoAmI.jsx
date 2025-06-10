@@ -163,7 +163,7 @@ export default function WhoAmI({ id }) {
             <div>
               <img
                 className="z-11 hover:brightness-95 transition-all duration-300 left-1/2 transform -translate-x-1/2 top-0 scale-[0.4] absolute rounded-full"
-                src="src/assets/imgs/theo.jpeg"></img>
+                src={theoImage}></img>
             </div>
           </div>
           </div>
@@ -215,7 +215,7 @@ export default function WhoAmI({ id }) {
             <div>
               <img
                 className="z-11 hover:brightness-95 transition-all duration-300 left-1/2 transform -translate-x-1/2 top-0 scale-[0.4] absolute rounded-full"
-                src="src/assets/imgs/theo.jpeg"></img>
+                src={theoImage}></img>
             </div>
             </div>
           </div>
