@@ -1,15 +1,14 @@
 .hero-titles{
     font-family: Baloo;
     color: var(--melon);
-    margin: auto;
 }
 
 .hero-titles h1{
     display: block;
     font-size: 12rem; 
     line-height: 0.8;  
-    margin-left: 1.5rem;
     margin-bottom: 2rem;
+    margin-top: 6rem;
 }
 
 .hero-color-diff{
@@ -23,12 +22,10 @@
     margin-bottom: 2rem;
 }
 
-
 @font-face {
   font-family: 'Baloo';
   src: url('/fonts/BalooChettan-Regular.ttf') format('truetype');
 }
-
 
 .hero{
     margin-bottom: 20px;
@@ -68,7 +65,9 @@
 
 @media only screen and (min-width:1440px){
     .hero-titles h1{
+        margin-left: 0;
         font-size: 12rem;
+        margin-top: 12rem;
     }
 
     .hero-titles p{

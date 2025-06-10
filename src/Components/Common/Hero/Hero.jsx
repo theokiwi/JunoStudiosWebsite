@@ -23,7 +23,6 @@ export default function Hero() {
     <>
       <section className="hero flex min-h-screen relative">
         <div className="hero-titles">
-
           {/* =================== DESKTOP =================== */}
           <MediaQuery minWidth={1440}>
             <h1 className="hover:scale-101 hover:brightness-95 transition-all duration-300 text-shadow-lg">
@@ -32,9 +31,9 @@ export default function Hero() {
               Games
             </h1>
             <p className="hover:brightness-95 transition-all duration-300">
-              Blocky and pixel-artsy games built with emotion, creativity, and depth. 
-              Always exploring one concept fully.
-               Never shallow, always surprising, always made to feel.
+              Blocky and pixel-artsy games built with emotion, creativity, and
+              depth. Always exploring one concept fully. Never shallow, always
+              surprising, always made to feel.
             </p>
             <Button
               className="absolute left-6 hover:scale-105"
@@ -43,33 +42,54 @@ export default function Hero() {
                 "&:hover": { backgroundColor: "var(--coral-pink)" },
                 fontFamily: "Baloo",
               }}
-              variant="contained"
-            >
+              variant="contained">
               BUY
             </Button>
           </MediaQuery>
 
           {/* =================== TABLET =================== */}
-          <MediaQuery minWidth={760} maxWidth={1280}>
-            <h1 className="absolute top-6 left-1/2 transform -translate-x-1/2 text-shadow-lg text-center">
+          <MediaQuery minWidth={760} maxWidth={1439}>
+            <h1
+              className="text-shadow-lg text-center" 
+              style={{
+                position: "absolute",
+                top: "1.5rem", 
+                left: "50%",
+                transform: "translateX(-50%)",
+                width: "100%", 
+              }}>
               Heartfelt <br />
               <span className="hero-color-diff">Indie</span> <br />
               Games
             </h1>
-            <p className="absolute top-145 left-1/2 transform -translate-x-1/2 text-center max-w-[90%]">
-              Blocky and pixel-artsy games built with emotion, creativity, and depth. 
-              Always exploring one concept fully.
-               Never shallow, always surprising, always made to feel.
+            <p
+              className="text-center max-w-[90%]" 
+              style={{
+                position: "absolute",
+                top: "36rem", 
+                left: "50%",
+                transform: "translateX(-50%)",
+              }}>
+              Blocky and pixel-artsy games built with emotion, creativity, and
+              depth. Always exploring one concept fully. Never shallow, always
+              surprising, always made to feel.
             </p>
+
             <Button
-              className="left-1/2 transform absolute top-100 -translate-x-1/2 hover:scale-105"
+              variant="contained"
               sx={{
                 backgroundColor: "var(--lapis-lazuli)",
-                "&:hover": { backgroundColor: "var(--coral-pink)" },
                 fontFamily: "Baloo",
-              }}
-              variant="contained"
-            >
+                position: "absolute",
+                left: "50%",
+                top: "52.5rem", 
+                transform: "translateX(-50%)",
+
+                "&:hover": {
+                  backgroundColor: "var(--coral-pink)",
+                  transform: "translateX(-50%) scale(1.05)", 
+                },
+              }}>
               BUY
             </Button>
           </MediaQuery>
@@ -83,9 +103,9 @@ export default function Hero() {
             </h1>
             <p
               className="absolute left-1/2 transform -translate-x-1/2 text-center max-w-[90%]"
-              style={{ top: "clamp(30rem, 18vh, 14rem)" }}
-            >
-              Blocky and pixel-artsy games! Exploring every concept with depth. Nothing shallow, always something to feel
+              style={{ top: "clamp(30rem, 18vh, 14rem)" }}>
+              Blocky and pixel-artsy games! Exploring every concept with depth.
+              Nothing shallow, always something to feel
             </p>
             <Button
               className="absolute left-1/2 top-100 transform -translate-x-1/2 hover:scale-105"
@@ -94,8 +114,7 @@ export default function Hero() {
                 "&:hover": { backgroundColor: "var(--coral-pink)" },
                 fontFamily: "Baloo",
               }}
-              variant="contained"
-            >
+              variant="contained">
               BUY
             </Button>
           </MediaQuery>
@@ -110,13 +129,19 @@ export default function Hero() {
 
         <MediaQuery minWidth={760} maxWidth={1280}>
           <div className="absolute -z-20 w-full max-w-[560px] left-1/2 transform -translate-x-1/2 top-70 bluesquares-div">
-            <BlueSquares viewBox="560 -250 1920 2000" color="var(--lapis-lazuli)" />
+            <BlueSquares
+              viewBox="560 -250 1920 2000"
+              color="var(--lapis-lazuli)"
+            />
           </div>
         </MediaQuery>
 
         <MediaQuery maxWidth={759}>
           <div className="absolute -z-20 w-full max-w-[460px] left-1/2 transform -translate-x-1/2 top-55 bluesquares-div">
-            <BlueSquares viewBox="560 -250 1920 2000" color="var(--lapis-lazuli)" />
+            <BlueSquares
+              viewBox="560 -250 1920 2000"
+              color="var(--lapis-lazuli)"
+            />
           </div>
         </MediaQuery>
 
@@ -143,8 +168,7 @@ export default function Hero() {
         <MediaQuery minWidth={1280}>
           <div
             onClick={goDown}
-            className="absolute animate-bounce bottom-[2rem] left-1/2 transform -translate-x-1/2 cursor-pointer hover:scale-105"
-          >
+            className="absolute animate-bounce bottom-[2rem] left-1/2 transform -translate-x-1/2 cursor-pointer hover:scale-105">
             <KeyboardArrowDownIcon
               sx={{ color: "var(--coral-pink)", fontSize: "5rem" }}
             />

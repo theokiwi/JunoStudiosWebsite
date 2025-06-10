@@ -52,13 +52,6 @@ export default function GameShow({ id }) {
             className="hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg hover:rotate-1  rounded-3xl "
           />
         </div>
-        <div
-          onClick={goDown}
-          className="absolute animate-bounce top-[185rem] left-1/2 cursor-pointer hover:scale-105">
-          <KeyboardArrowDownIcon
-            sx={{ color: "var(--coral-pink)", fontSize: "5rem" }}
-          />
-        </div>
       </MediaQuery>
 
       <MediaQuery minWidth={760} maxWidth={1280}>
@@ -91,13 +84,6 @@ export default function GameShow({ id }) {
             />
           </div>
 
-          <div
-            onClick={goDown}
-            className="animate-bounce cursor-pointer hover:scale-105">
-            <KeyboardArrowDownIcon
-              sx={{ color: "var(--coral-pink)", fontSize: "4rem" }}
-            />
-          </div>
         </div>
       </MediaQuery>
 

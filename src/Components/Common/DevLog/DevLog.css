@@ -23,3 +23,20 @@
     margin-bottom: 5rem;
   }
 }
+
+
+@media only screen and (min-width:1500px){
+  .title{
+      margin-top: 2rem;
+  }
+
+  .video{
+    margin-bottom: 5rem;
+  }
+}
+
+.video-title{
+  margin-left: 10rem;
+}
+
+
