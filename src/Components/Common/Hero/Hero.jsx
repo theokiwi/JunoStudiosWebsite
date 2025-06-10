@@ -57,14 +57,14 @@ export default function Hero() {
               <span className="hero-color-diff">Indie</span> <br />
               Games
             </h1>
-            <p className="absolute top-130 left-1/2 transform -translate-x-1/2 text-center max-w-[90%]">
+            <p className="absolute top-145 left-1/2 transform -translate-x-1/2 text-center max-w-[90%]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
               numquam dolore laudantium odio libero nulla laboriosam architecto
               ut quidem quia alias. numquam dolore laudantium odio libero nulla laboriosam architecto
               ut quidem quia alias. 
             </p>
             <Button
-              className="left-1/2 transform absolute top-75 -translate-x-1/2 hover:scale-105"
+              className="left-1/2 transform absolute top-110 -translate-x-1/2 hover:scale-105"
               sx={{
                 backgroundColor: "var(--lapis-lazuli)",
                 "&:hover": { backgroundColor: "var(--coral-pink)" },
@@ -112,7 +112,7 @@ export default function Hero() {
         </MediaQuery>
 
         <MediaQuery minWidth={760} maxWidth={1280}>
-          <div className="absolute -z-20 w-full max-w-[560px] left-1/2 transform -translate-x-1/2 top-50 bluesquares-div">
+          <div className="absolute -z-20 w-full max-w-[560px] left-1/2 transform -translate-x-1/2 top-70 bluesquares-div">
             <BlueSquares viewBox="560 -250 1920 2000" color="var(--lapis-lazuli)" />
           </div>
         </MediaQuery>
@@ -131,7 +131,7 @@ export default function Hero() {
         </MediaQuery>
 
         <MediaQuery minWidth={760} maxWidth={1280}>
-          <div className="juno-walking absolute w-full max-w-[360px] top-70 left-1/2 transform -translate-x-1/2 hover:brightness-95">
+          <div className="juno-walking absolute w-full max-w-[360px] top-90 left-1/2 transform -translate-x-1/2 hover:brightness-95">
             <JunoWalking />
           </div>
         </MediaQuery>

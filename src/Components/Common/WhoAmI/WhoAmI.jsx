@@ -70,7 +70,7 @@ export default function WhoAmI({ id }) {
                 <span className="text-(--indigo-dye)">Am</span> <br />I
               </h1>
             </div>
-            <div className="text-[1.2rem] leading-10 hover:brightness-95 transition-all duration-300">
+            <div className="text-[1.2rem] leading-8 hover:brightness-95 transition-all duration-300">
               <p className="text-(--melon)">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 in vero sed earum recusandae magnam fuga, corrupti dolorem
@@ -88,7 +88,7 @@ export default function WhoAmI({ id }) {
         <MediaQuery minWidth = {1280} maxWidth = {1919}>
         <div onMouseOver = {startAnimation} className="flex flex-row w-full h-full">
           <div className="relative w-1/2">
-            <div className="scale-110">
+            <div className="scale-105">
                 <Asterisk color="var(--lapis-lazuli)" />
             </div>
             <div className="absolute -left-42 scale-[0.8] top-[22%] z-10 hover:brightness-95 transition-all">
@@ -122,7 +122,7 @@ export default function WhoAmI({ id }) {
                 <span className="text-(--indigo-dye)">Am</span> <br />I
               </h1>
             </div>
-            <div className="text-[1.2rem] leading-10 hover:brightness-95 transition-all duration-300">
+            <div className="text-[1.2rem] leading-8 hover:brightness-95 transition-all duration-300">
               <p className="text-(--melon)">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 in vero sed earum recusandae magnam fuga, corrupti dolorem
@@ -169,16 +169,16 @@ export default function WhoAmI({ id }) {
                 className="z-11 hover:brightness-95 transition-all duration-300 left-1/2 transform -translate-x-1/2 top-0 scale-[0.4] absolute rounded-full"
                 src="src/assets/imgs/theo.jpeg"></img>
             </div>
-            </div>
+          </div>
           </div>
 
           <div className="absolute top-[38rem] left-1/2 transform -translate-x-1/2 text-center w-full px-4">
-          <div className="leading-[5rem] text-[6rem] text-shadow-lg">
+          <div className="leading-[6rem] text-[6rem] text-shadow-lg">
             <h1 className="text-[var(--melon)]">
               Who <span className="text-[var(--indigo-dye)]">Am</span> I
             </h1>
           </div>
-          <div className="text-[1.2rem] leading-10 absolute top-30 max-w-[50rem] mx-auto">
+          <div className="text-[1.6rem] leading-10 absolute top-30 max-w-[50rem] mx-auto">
             <p className="text-[var(--melon)]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
               in vero sed earum recusandae magnam fuga corrupti dolorem
@@ -228,7 +228,7 @@ export default function WhoAmI({ id }) {
           </div>
 
           <div className="absolute top-[30rem] left-1/2 transform -translate-x-1/2 text-center w-full px-4">
-          <div className="leading-[5rem] text-[5rem] text-shadow-lg">
+          <div className="leading-[5rem] text-[4.8rem] text-shadow-lg">
             <h1 className="text-[var(--melon)]">
               Who <span className="text-[var(--indigo-dye)]">Am</span> I
             </h1>

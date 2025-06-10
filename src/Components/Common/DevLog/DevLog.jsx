@@ -35,9 +35,9 @@ export default function DevLog({ id }) {
       <MediaQuery minWidth={1280} maxWidth={1919}>
         <div
           onMouseOver={startAnimation}
-          className="flex flex-row w-full h-full">
+          className="min-h-screen flex flex-row w-full h-full">
           <div className="relative w-1/2">
-            <div className="scale-110">
+            <div className="scale-105">
               <Asterisk color="var(--lapis-lazuli)" />
             </div>
             <div className="absolute -left-42 scale-[0.8] top-[22%] z-10 hover:brightness-95 transition-all">
@@ -61,7 +61,7 @@ export default function DevLog({ id }) {
             </div>
             <div>
               <img
-                className="z-11 w-48 h-48 hover:brightness-95 transition-all -left-3 duration-300 top-[40%] scale-[1.8] absolute rounded-full"
+                className="z-11 w-48 h-48 hover:brightness-95 transition-all -left-3 duration-300 top-[39%] scale-[1.8] absolute rounded-full"
                 src="src/assets/imgs/game2.png"></img>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function DevLog({ id }) {
       <MediaQuery minWidth={760} maxWidth={1279}>
         <div className="flex flex-col items-center justify-center">
           <div className="text-shadow-lg text-center leading-none text-[6rem]">
-            <h1 className="title text-[var(--melon)]">
+            <h1 className="text-[6rem] title text-[var(--melon)]">
               Dev<span className="text-[var(--indigo-dye)]">Log</span>
             </h1>
           </div>
@@ -115,7 +115,7 @@ export default function DevLog({ id }) {
       <MediaQuery minWidth = {390} maxWidth = {759}>
         <div className="flex flex-col items-center justify-center">
           <div className="text-shadow-lg text-center leading-none text-[6rem]">
-            <h1 className="title text-[var(--melon)]">
+            <h1 className="title text-[4.8rem] text-[var(--melon)]">
               Dev<span className="text-[var(--indigo-dye)]">Log</span>
             </h1>
           </div>
