@@ -23,13 +23,12 @@
     margin-bottom: 2rem;
 }
 
-/* perguntar pro vini porque eu to tendo
-que fazer isso pra ficar grande */
 
 @font-face {
-    font-family: Baloo;
-    src: url(src/assets/fonts/BalooChettan-Regular.ttf);
+  font-family: 'Baloo';
+  src: url('/fonts/BalooChettan-Regular.ttf') format('truetype');
 }
+
 
 .hero{
     margin-bottom: 20px;
