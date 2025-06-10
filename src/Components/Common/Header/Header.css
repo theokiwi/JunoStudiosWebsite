@@ -7,10 +7,14 @@
 .header-logo-img{
     width: 5rem;
     height: 5rem;
+    margin: 0;
+    padding: 0;
 }
 
 .header-logo span{
     font-family: Baloo;
+    margin: 0;
+    padding: 0;
     color: var(--melon);
 }
 
@@ -42,4 +46,10 @@
 @font-face {
     font-family: Baloo;
     src: url(src/assets/fonts/BalooChettan-Regular.ttf);
+}
+
+@media only screen and (max-width: 768px){
+    .header-logo-text{
+        margin-top:5%;
+    }
 }

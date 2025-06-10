@@ -25,10 +25,6 @@
 
 /* perguntar pro vini porque eu to tendo
 que fazer isso pra ficar grande */
-.juno-walking{
-   width: 160%;
-}
-
 
 @font-face {
     font-family: Baloo;
@@ -37,4 +33,71 @@ que fazer isso pra ficar grande */
 
 .hero{
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 390px){
+    .hero-titles h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-titles p{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width: 1280px){
+    .hero-titles h1{
+        font-size: 6.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-titles p{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width: 760px){
+    .hero-titles h1{
+        font-size: 4.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-titles p{
+        margin-left: 0;
+        margin-top: 15%;
+    }
+
+    .hero-titles Button{
+        position: absolute;
+        top: 82%;
+        z-index: 10; 
+    }
+}
+
+@media only screen and (min-width:1440px){
+    .hero-titles h1{
+        font-size: 12rem;
+    }
+
+    .hero-titles p{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width: 1280px){
+    .hero-titles h1{
+        font-size: 4.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-titles p{
+        margin-left: 0;
+        margin-top: 15%;
+    }
+
 }
