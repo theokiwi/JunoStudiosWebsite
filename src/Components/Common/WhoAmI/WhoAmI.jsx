@@ -142,7 +142,7 @@ export default function WhoAmI({ id }) {
         </div>
         </MediaQuery>
         
-       <MediaQuery minWidth = {760} maxWidth = {1100}>
+       <MediaQuery minWidth = {760} maxWidth = {1279}>
         <div onMouseOver = {startAnimation} className="flex flex-row w-full h-full">
           <div className="relative w-full">
             <div className="absolute top-[6rem] left-1/2 transform -translate-x-1/2 h-auto">
@@ -194,6 +194,53 @@ export default function WhoAmI({ id }) {
           <KeyboardArrowDownIcon
             sx={{ color: "var(--coral-pink)", fontSize: "5rem" }}
           />
+        </div>
+        </MediaQuery>
+
+        <MediaQuery minWidth = {390} maxWidth = {759}>
+        <div onMouseOver = {startAnimation} className="flex flex-row w-full h-full">
+          <div className="relative w-full">
+            <div className="absolute scale-80 top-[0rem] left-1/2 transform -translate-x-1/2 h-auto">
+            <CenteredAsterisk color = "var(--lapis-lazuli)"/>
+            <div className="absolute left-1/2 transform -translate-x-1/2 scale-[0.8] top-[20%] z-10">
+                <Ball color="White" size={300} />
+            </div>
+              <div className>
+                  <div id = "animated-balls" className="animated-balls absolute left-75 scale-[0.3] top-[12%] z-10 hover:brightness-95 transition-all">
+                    <Ball color="White" size={200} />
+                  </div>
+                  <div className="animated-balls absolute left-75 scale-[0.3] top-[27%] z-10 hover:brightness-95 transition-all">
+                    <Ball color="var(--melon)" size={200} />
+                  </div>
+                  <div className="animated-balls absolute left-75 scale-[0.3] top-[42%] z-10 hover:brightness-95 transition-all">
+                    <Ball color="var(--indigo-dye)" size={200} />
+                  </div>
+                  <div className="animated-balls  absolute left-75 scale-[0.3] top-[57%] z-10 hover:brightness-95 transition-all">
+                    <Ball color="var(--marian-blue)" size={200} />
+                </div>
+            </div>
+            <div>
+              <img
+                className="z-11 hover:brightness-95 transition-all duration-300 left-1/2 transform -translate-x-1/2 top-0 scale-[0.4] absolute rounded-full"
+                src="src/assets/imgs/theo.jpeg"></img>
+            </div>
+            </div>
+          </div>
+
+          <div className="absolute top-[30rem] left-1/2 transform -translate-x-1/2 text-center w-full px-4">
+          <div className="leading-[5rem] text-[5rem] text-shadow-lg">
+            <h1 className="text-[var(--melon)]">
+              Who <span className="text-[var(--indigo-dye)]">Am</span> I
+            </h1>
+          </div>
+          <div className="text-[1.2rem] leading-8 absolute top-30 max-w-[30rem] mx-auto">
+            <p className="text-[var(--melon)]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              in vero sed earum recusandae magnam fuga corrupti dolorem
+              eligendi
+            </p>
+          </div>
+        </div>
         </div>
         </MediaQuery>
 

@@ -143,7 +143,7 @@ export default function Hero() {
         </MediaQuery>
 
         {/* =================== GO DOWN ICON =================== */}
-        <MediaQuery minWidth={1920}>
+        <MediaQuery minWidth={1280}>
           <div
             onClick={goDown}
             className="absolute animate-bounce bottom-[2rem] left-1/2 transform -translate-x-1/2 cursor-pointer hover:scale-105"
