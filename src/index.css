@@ -5,8 +5,9 @@
 
 @font-face {
   font-family: 'Baloo';
-  src: url('@/assets/fonts/BalooChettan-Regular.ttf');
+  src: url('/fonts/BalooChettan-Regular.ttf') format('truetype');
 }
+
 @import "tailwindcss";
 @import './assets/colors.css';
 
