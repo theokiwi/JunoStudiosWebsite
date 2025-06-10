@@ -4,10 +4,9 @@
 }
 
 @font-face {
-    font-family: Baloo;
-    src: url(src/assets/fonts/BalooChettan-Regular.ttf);
+  font-family: 'Baloo';
+  src: url('@/assets/fonts/BalooChettan-Regular.ttf');
 }
-
 @import "tailwindcss";
 @import './assets/colors.css';
 
