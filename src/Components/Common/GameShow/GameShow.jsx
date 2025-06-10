@@ -24,16 +24,14 @@ export default function GameShow({ id }) {
       <MediaQuery minWidth={1281}>
         <div className="w-1/2 title">
           <h1 className="hover:scale-101 hover:brightness-95 transition-all duration-300 text-shadow-lg">
-            Game <br />
-            <span className="hero-color-diff">Title</span> <br />
+            Expl<span className="hero-color-diff">on't</span>
           </h1>
           <p className="hover:brightness-95 transition-all duration-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-            modi laborum nostrum quo voluptates ex voluptate quam rerum itaque
-            deleniti, expedita nobis temporibus ullam, dolores id sapiente!
-            Voluptatum nulla explicabo corporis non eligendi ullam nihil
-            officiis libero sint earum vero id blanditiis repudiandae quod
-            commodi at, voluptatem deserunt quam.
+            You are Froggg. Don’t make Froggg angry. Froggg explode! But
+            lollipops make Froggg happy. Jump, hop, and bounce through a
+            whimsical world full of silly dangers and surprising delights. This
+            platformer doesn’t take itself seriously — and that’s exactly why
+            you’ll love it.
           </p>
           <Button
             className="left-6"
@@ -66,13 +64,12 @@ export default function GameShow({ id }) {
         <div className="flex flex-col items-center">
           <div className="w-full max-w text-center justify-center title">
             <h1 className="text-shadow-lg text-4xl">
-              Game<span className="hero-color-diff">Title</span>
+              Expl<span className="hero-color-diff">on't</span>
             </h1>
             <p className="mt-4 hover:brightness-95 transition-all duration-300 text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              modi laborum nostrum quo voluptates ex voluptate quam rerum itaque
-              deleniti, expedita nobis temporibus ullam, dolores id sapiente!
-              Voluptatum nulla explicabo corporis non eligendi ullam nihil
+              You are Froggg. Don’t make Froggg angry. Froggg explode! But
+            lollipops make Froggg happy. Jump, hop, and bounce through a
+            whimsical world full of silly dangers and surprising delights.
             </p>
             <Button
               sx={{
@@ -107,11 +104,10 @@ export default function GameShow({ id }) {
         <div className="flex flex-col items-center px-4">
           <div className="w-full text-center justify-center title mb-6">
             <h1 className="text-shadow-lg text-4xl">
-              Game<span className="hero-color-diff">Title</span>
+              Expl<span className="hero-color-diff">on't</span>
             </h1>
             <p className="mt-4 hover:brightness-95 transition-all duration-300 text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              modi laborum nostrum quo voluptates.
+              You are Froggg. Don’t make Froggg angry. Froggg explode! But lollipops make Froggg happy.
             </p>
             <Button
               sx={{

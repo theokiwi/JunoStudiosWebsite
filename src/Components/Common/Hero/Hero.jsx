@@ -32,10 +32,9 @@ export default function Hero() {
               Games
             </h1>
             <p className="hover:brightness-95 transition-all duration-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              numquam dolore laudantium, odio libero nulla laboriosam architecto
-              ut quidem quia alias. Hic consectetur voluptatibus vero nostrum
-              doloribus eos pariatur magni.
+              Blocky and pixel-artsy games built with emotion, creativity, and depth. 
+              Always exploring one concept fully.
+               Never shallow, always surprising, always made to feel.
             </p>
             <Button
               className="absolute left-6 hover:scale-105"
@@ -58,13 +57,12 @@ export default function Hero() {
               Games
             </h1>
             <p className="absolute top-145 left-1/2 transform -translate-x-1/2 text-center max-w-[90%]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              numquam dolore laudantium odio libero nulla laboriosam architecto
-              ut quidem quia alias. numquam dolore laudantium odio libero nulla laboriosam architecto
-              ut quidem quia alias. 
+              Blocky and pixel-artsy games built with emotion, creativity, and depth. 
+              Always exploring one concept fully.
+               Never shallow, always surprising, always made to feel.
             </p>
             <Button
-              className="left-1/2 transform absolute top-110 -translate-x-1/2 hover:scale-105"
+              className="left-1/2 transform absolute top-100 -translate-x-1/2 hover:scale-105"
               sx={{
                 backgroundColor: "var(--lapis-lazuli)",
                 "&:hover": { backgroundColor: "var(--coral-pink)" },
@@ -87,8 +85,7 @@ export default function Hero() {
               className="absolute left-1/2 transform -translate-x-1/2 text-center max-w-[90%]"
               style={{ top: "clamp(30rem, 18vh, 14rem)" }}
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              numquam dolore laudantium odio libero.
+              Blocky and pixel-artsy games! Exploring every concept with depth. Nothing shallow, always something to feel
             </p>
             <Button
               className="absolute left-1/2 top-100 transform -translate-x-1/2 hover:scale-105"

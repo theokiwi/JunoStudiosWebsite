@@ -22,6 +22,12 @@ img{
     margin-right: 2rem;
 }
 
+@media only screen and (min-width:1281px){
+    .title h1{
+        font-size: 11.2rem;
+    }
+}
+
 @media only screen and (min-width:760px) and (max-width: 1280px){
     .title h1{
     font-size: 6rem; 

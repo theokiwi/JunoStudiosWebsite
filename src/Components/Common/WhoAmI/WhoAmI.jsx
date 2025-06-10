@@ -72,12 +72,9 @@ export default function WhoAmI({ id }) {
             </div>
             <div className="text-[1.2rem] leading-8 hover:brightness-95 transition-all duration-300">
               <p className="text-(--melon)">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                in vero sed earum recusandae magnam fuga, corrupti dolorem
-                eligendi repellat velit quis fugit similique aut eaque laborum
-                quibusdam iste consectetur. Debitis nemo quidem praesentium
-                minus dolorum odio tenetur provident repellendus dolorem
-                architecto nisi perferendis, ipsam officia.
+                I am an brazillian transgender Game Developer passionate about the blocky and pixel art style.
+                I want people to enjoy the exploration of a few different and creative game mechanics while also
+                getting knee deep on story rich universes.
               </p>
             </div>
           </div>
@@ -124,11 +121,9 @@ export default function WhoAmI({ id }) {
             </div>
             <div className="text-[1.2rem] leading-8 hover:brightness-95 transition-all duration-300">
               <p className="text-(--melon)">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                in vero sed earum recusandae magnam fuga, corrupti dolorem
-                eligendi repellat velit quis fugit similique aut eaque laborum
-                quibusdam iste consectetur. Debitis nemo quidem praesentium
-                minus dolorum odio tenetur provident repellendus.
+                    I am a Brazilian transgender Game Developer passionate about the blocky and pixel art style.
+                    I want people to enjoy the exploration of a few different and creative game mechanics while also
+                    getting knee deep in story-rich universes.
               </p>
             </div>
           </div>
@@ -178,12 +173,9 @@ export default function WhoAmI({ id }) {
               Who <span className="text-[var(--indigo-dye)]">Am</span> I
             </h1>
           </div>
-          <div className="text-[1.6rem] leading-10 absolute top-30 max-w-[50rem] mx-auto">
+          <div className="text-[1.6rem] leading-10 absolute left-1/2 -translate-x-1/2 top-30 max-w-[60rem]">
             <p className="text-[var(--melon)]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              in vero sed earum recusandae magnam fuga corrupti dolorem
-                eligendi repellat velit quis fugit similique aut eaque laborum
-                quibusdam iste consectetur.
+                  I am a Brazilian transgender Game Developer passionate about the blocky and pixel art style.
             </p>
           </div>
         </div>
@@ -235,9 +227,7 @@ export default function WhoAmI({ id }) {
           </div>
           <div className="text-[1.2rem] leading-8 absolute top-30 max-w-[30rem] mx-auto">
             <p className="text-[var(--melon)]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-              in vero sed earum recusandae magnam fuga corrupti dolorem
-              eligendi
+              I am a Brazilian transgender Game Developer passionate about the blocky and pixel art style.
             </p>
           </div>
         </div>
