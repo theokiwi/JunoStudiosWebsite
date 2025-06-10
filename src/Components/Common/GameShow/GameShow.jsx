@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import MediaQuery from "react-responsive";
 import "./GameShow.css";
+import gameGif from '../../../assets/imgs/Game.gif'
 
 const goDown = () => {
   const nextSection = document.getElementById("DevLog");
@@ -46,7 +47,7 @@ export default function GameShow({ id }) {
         </div>
         <div className="game-title w-1/2 flex items-center justify-end">
           <img
-            src="src/assets/imgs/Game.gif"
+            src={gameGif}
             alt="Imagem do jogo Explon't..."
             className="hover:scale-105 hover:brightness-95 transition-all duration-300 text-shadow-lg hover:rotate-1  rounded-3xl "
           />
@@ -84,7 +85,7 @@ export default function GameShow({ id }) {
 
           <div className="game-image w-full flex justify-center">
             <img
-              src="src/assets/imgs/Game.gif"
+              src={gameGif}
               alt="Imagem do jogo Explon't..."
               className="w-3/4 md:w-2/3 text-shadow-lg rounded-3xl"
             />
@@ -122,7 +123,7 @@ export default function GameShow({ id }) {
 
           <div className="game-image w-full flex justify-center">
             <img
-              src="src/assets/imgs/Game.gif"
+              src={gameGif}
               alt="Imagem do jogo Explon't..."
               className="block max-w-full w-3/4 rounded-3xl text-shadow-lg"
               style={{ marginLeft: "auto", marginRight: "auto" }}

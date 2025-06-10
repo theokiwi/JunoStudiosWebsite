@@ -1,5 +1,5 @@
 import React from "react";
-const gifUrl = "src/assets/imgs/JunoWalking.gif";
+import gifUrl from '../../assets/imgs/JunoWalking.gif';
 
 export default function JunoWalking({width = "1140", height = "740"}) {
   return (

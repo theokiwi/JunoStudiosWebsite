@@ -4,7 +4,7 @@ import CenteredAsterisk from "../../../Components/CenteredBlueAsterisk/CenteredB
 import Ball from "../../Ball/Ball.jsx";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import MediaQuery from "react-responsive";
-
+import gameImage from '../../../assets/imgs/game2.png';
 import "./DevLog.css";
 
 const goDown = () => {
@@ -62,7 +62,7 @@ export default function DevLog({ id }) {
             <div>
               <img
                 className="z-11 w-48 h-48 hover:brightness-95 transition-all -left-3 duration-300 top-[39%] scale-[1.8] absolute rounded-full"
-                src="src/assets/imgs/game2.png"></img>
+                src={gameImage}></img>
             </div>
           </div>
 
